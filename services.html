@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services — B.Z.S. Racing Parts</title>
+  <meta name="description" content="Steel ball polishing, custom frame projects, and Honda XR500 brake pedal. Services by B.Z.S. Racing Parts.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+        colors: { navy: { 900: '#0F172A', 800: '#1E293B', 700: '#334155' }, steel: { 400: '#94A3B8', 300: '#CBD5E1', 200: '#E2E8F0' }, cta: '#0369A1', ctaHover: '#0284C7', accent: '#F59E0B' }
+      }}
+    }
+  </script>
+</head>
+<body class="font-sans bg-navy-900 text-steel-300 antialiased">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-navy-900/95 backdrop-blur border-b border-navy-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="index.html" class="text-white font-bold text-xl tracking-tight cursor-pointer">B.Z.S. <span class="text-cta">Racing Parts</span></a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Home</a>
+        <a href="frames.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Frames</a>
+        <a href="services.html" class="text-white text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Services</a>
+        <a href="gallery.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Gallery</a>
+        <a href="contact.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Contact</a>
+        <a href="tel:+31412402738" class="bg-cta hover:bg-ctaHover text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 cursor-pointer">+31 412 402738</a>
+      </div>
+      <button id="menuBtn" class="md:hidden text-white cursor-pointer p-2 min-h-[44px] min-w-[44px] flex items-center justify-center">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy-800 border-t border-navy-700">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block text-steel-300 font-medium py-2 cursor-pointer">Home</a>
+        <a href="frames.html" class="block text-steel-300 font-medium py-2 cursor-pointer">Frames</a>
+        <a href="services.html" class="block text-white font-medium py-2 cursor-pointer">Services</a>
+        <a href="gallery.html" class="block text-steel-300 font-medium py-2 cursor-pointer">Gallery</a>
+        <a href="contact.html" class="block text-steel-300 font-medium py-2 cursor-pointer">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <section class="pt-28 pb-16 bg-navy-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">What We Do</p>
+      <h1 class="text-4xl sm:text-5xl font-extrabold text-white">Services</h1>
+      <p class="text-steel-400 mt-4 max-w-3xl text-lg">Beyond replica frames — steel ball polishing, custom projects and spare parts.</p>
+    </div>
+  </section>
+
+  <!-- Steel Ball Polishing -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-start">
+        <div>
+          <div class="inline-block bg-cta/10 text-cta px-3 py-1 rounded-full text-xs font-semibold mb-4">Service</div>
+          <h2 class="text-3xl font-extrabold text-white mb-6">Steel Ball Polishing</h2>
+          <p class="text-steel-300 leading-relaxed mb-4">Steel ball polishing is a mechanical process in order to obtain a high-gloss-polished aluminium or stainless steel product by means of stainless steel balls and satellite shaped polishing parts. During the polishing process water and a special addition are used.</p>
+          <p class="text-steel-300 leading-relaxed mb-4">B.Z.S. Racing Parts has developed a machine in which all kinds of aluminum parts can be polished. Think of new aluminum brackets or for the restorers refurbishing and polishing of old hubs, crankcases, forks and so on.</p>
+          <p class="text-steel-300 leading-relaxed mb-4">In addition to the gloss effect of polishing, the components also have a higher resistance to corrosion. The surface becomes less porous and tougher.</p>
+          <p class="text-steel-300 leading-relaxed mb-6">Pre-treatment in a chemical bath allows the removing of the discoloration of stainless steel due to welding or the oxide skins which occurs after heat treatment. It is also possible to glass bead the component before the polishing which will make your products look almost new again.</p>
+          <div class="bg-navy-800 border border-navy-700 rounded-xl p-6">
+            <p class="text-white font-semibold mb-2">Request a Quote</p>
+            <p class="text-steel-400 text-sm">Please send a photo of the part which should be processed when you apply for an offer to enable us to send you a quotation on short notice.</p>
+            <a href="mailto:info@bzsracingparts.nl" class="inline-flex items-center text-cta font-semibold text-sm mt-3 hover:underline cursor-pointer">
+              Send us a photo →
+            </a>
+          </div>
+        </div>
+        <div class="space-y-6">
+          <div class="bg-navy-800 border border-navy-700 rounded-xl p-6">
+            <h3 class="text-white font-semibold mb-3">What can be polished?</h3>
+            <ul class="text-steel-400 text-sm space-y-2">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-cta flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> New aluminum brackets</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-cta flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Old hubs and crankcases</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-cta flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Forks and suspension parts</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-cta flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Stainless steel components</li>
+            </ul>
+          </div>
+          <div class="bg-navy-800 border border-navy-700 rounded-xl p-6">
+            <h3 class="text-white font-semibold mb-3">Benefits</h3>
+            <ul class="text-steel-400 text-sm space-y-2">
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> High-gloss finish</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Higher corrosion resistance</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Less porous, tougher surface</li>
+              <li class="flex items-center gap-2"><svg class="w-4 h-4 text-accent flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Removes welding discoloration</li>
+            </ul>
+          </div>
+          <p class="text-steel-400/60 text-xs">Available for private persons and companies on commission.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Custom Projects -->
+  <section class="bg-navy-800 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">Custom Work</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Custom Projects</h2>
+        <p class="text-steel-400 mt-4 max-w-2xl mx-auto">B.Z.S. Racing Parts also takes on custom frame projects for clients worldwide.</p>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">Project MONDA</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">Commissioned by Trevor Calderwood from England — a special Maico frame with attachment for a 1983 Honda engine 480cc.</p>
+        </div>
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">Project DUCATI Mach 1 SC</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">Commissioned by a customer from Germany — a slightly modified DUCATI Mach 1 SC frame with different model rear fork.</p>
+        </div>
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">Project GORI Frames</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">A totally destroyed GORI frame made as new again. The entire front was cut off and rebuilt with the help of an example frame and auxiliary jigs.</p>
+        </div>
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">Project WOOD Frames</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">Commissioned by Dirt Track Lelystad — a 1-on-1 copy of the well-known WOOD's frame from the 70's, built in close collaboration with Dirk and Dimitri.</p>
+        </div>
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">BSA Frames (Nickel)</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">A series of BSA frames supplied with nickel as surface treatment, incl. brake pedal, footrest holders and air box.</p>
+        </div>
+        <div class="bg-navy-900 rounded-xl border border-navy-700 p-6">
+          <h3 class="text-white font-bold text-lg mb-3">Honda XR500 Brake Pedal</h3>
+          <p class="text-steel-400 text-sm leading-relaxed">Custom brake pedal with original mounting — the point of engagement for the cable is higher with enough room to pivot the kickstarter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-cta py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-extrabold text-white mb-4">Have a Custom Project?</h2>
+      <p class="text-white/80 text-lg mb-8">Contact us with your requirements — we build frames for clients worldwide.</p>
+      <a href="contact.html" class="bg-white text-navy-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-steel-200 transition-colors duration-200 cursor-pointer inline-block">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 border-t border-navy-700 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <p class="text-white font-bold text-lg mb-3">B.Z.S. <span class="text-cta">Racing Parts</span></p>
+          <p class="text-steel-400 text-sm">Precision motorsport frames since 30+ years.</p>
+        </div>
+        <div>
+          <p class="text-white font-semibold text-sm mb-3">Quick Links</p>
+          <div class="space-y-2">
+            <a href="frames.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Frames</a>
+            <a href="services.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Services</a>
+            <a href="gallery.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Gallery</a>
+            <a href="contact.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-white font-semibold text-sm mb-3">Contact</p>
+          <div class="space-y-2 text-steel-400 text-sm">
+            <p>Hoessenboslaan 39d, 5351 PB Berghem</p>
+            <p><a href="tel:+31412402738" class="hover:text-cta cursor-pointer">+31 412 402738</a></p>
+            <p><a href="mailto:info@bzsracingparts.nl" class="hover:text-cta cursor-pointer">info@bzsracingparts.nl</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-navy-700 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p class="text-steel-400/60 text-xs">KvK 160.55.286 · BTW NL812375324B01</p>
+        <p class="text-steel-400/60 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="hover:text-cta cursor-pointer">Code Lieshout</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('menuBtn').addEventListener('click', () => document.getElementById('mobileMenu').classList.toggle('hidden'));</script>
+</body>
+</html>

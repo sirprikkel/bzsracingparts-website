@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.Z.S. Racing Parts — Precision Motorsport Frames</title>
+  <meta name="description" content="B.Z.S. Racing Parts builds motorsport frames for MX, racing and quad from chromium molybdenum tube. Replica frames for Maico, Husqvarna, Honda, Yamaha, Suzuki and more.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            navy: { 900: '#0F172A', 800: '#1E293B', 700: '#334155' },
+            steel: { 400: '#94A3B8', 300: '#CBD5E1', 200: '#E2E8F0' },
+            cta: '#0369A1',
+            ctaHover: '#0284C7',
+            accent: '#F59E0B'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-overlay { background: linear-gradient(135deg, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.7) 100%); }
+  </style>
+</head>
+<body class="font-sans bg-navy-900 text-steel-300 antialiased">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-navy-900/95 backdrop-blur border-b border-navy-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <a href="index.html" class="text-white font-bold text-xl tracking-tight cursor-pointer">B.Z.S. <span class="text-cta">Racing Parts</span></a>
+      <!-- Desktop nav -->
+      <div class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="text-white text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Home</a>
+        <a href="frames.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Frames</a>
+        <a href="services.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Services</a>
+        <a href="gallery.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Gallery</a>
+        <a href="contact.html" class="text-steel-300 text-sm font-medium hover:text-cta transition-colors duration-200 cursor-pointer">Contact</a>
+        <a href="tel:+31412402738" class="bg-cta hover:bg-ctaHover text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors duration-200 cursor-pointer flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          +31 412 402738
+        </a>
+      </div>
+      <!-- Mobile menu button -->
+      <button id="menuBtn" class="md:hidden text-white cursor-pointer p-2 min-h-[44px] min-w-[44px] flex items-center justify-center">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-navy-800 border-t border-navy-700">
+      <div class="px-4 py-4 space-y-3">
+        <a href="index.html" class="block text-white font-medium py-2 cursor-pointer">Home</a>
+        <a href="frames.html" class="block text-steel-300 font-medium py-2 hover:text-cta cursor-pointer">Frames</a>
+        <a href="services.html" class="block text-steel-300 font-medium py-2 hover:text-cta cursor-pointer">Services</a>
+        <a href="gallery.html" class="block text-steel-300 font-medium py-2 hover:text-cta cursor-pointer">Gallery</a>
+        <a href="contact.html" class="block text-steel-300 font-medium py-2 hover:text-cta cursor-pointer">Contact</a>
+        <a href="tel:+31412402738" class="block bg-cta text-white text-center py-3 rounded-lg font-semibold cursor-pointer">+31 412 402738</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative min-h-screen flex items-center pt-16">
+    <div class="absolute inset-0">
+      <img src="images/hero-advert.jpg" alt="B.Z.S. Racing Parts motorsport frames" class="w-full h-full object-cover" loading="eager">
+      <div class="hero-overlay absolute inset-0"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+      <div class="max-w-2xl">
+        <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-4">Precision Motorsport Frames</p>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+          Built for <span class="text-cta">Champions</span>
+        </h1>
+        <p class="text-lg sm:text-xl text-steel-300 mb-8 leading-relaxed">
+          B.Z.S. Racing Parts builds motorsport frames for MX, racing and quad. All frames constructed from chromium molybdenum tube (25CrMo4), MIG or TIG welded with great precision.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="frames.html" class="bg-cta hover:bg-ctaHover text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors duration-200 cursor-pointer text-center">
+            View Our Frames
+          </a>
+          <a href="contact.html" class="border-2 border-steel-400 hover:border-white text-white px-8 py-4 rounded-lg font-bold text-lg transition-colors duration-200 cursor-pointer text-center">
+            Get In Touch
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="bg-navy-800 border-y border-navy-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <p class="text-3xl sm:text-4xl font-extrabold text-white">30+</p>
+          <p class="text-steel-400 text-sm mt-1">Years Experience</p>
+        </div>
+        <div>
+          <p class="text-3xl sm:text-4xl font-extrabold text-white">15+</p>
+          <p class="text-steel-400 text-sm mt-1">Frame Models</p>
+        </div>
+        <div>
+          <p class="text-3xl sm:text-4xl font-extrabold text-white">4.3</p>
+          <p class="text-steel-400 text-sm mt-1">★ Google Rating</p>
+        </div>
+        <div>
+          <p class="text-3xl sm:text-4xl font-extrabold text-white">🌍</p>
+          <p class="text-steel-400 text-sm mt-1">Worldwide Shipping</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frames Overview -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">Our Frames</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Precision Replica Frames</h2>
+        <p class="text-steel-400 mt-4 max-w-2xl mx-auto">All frames constructed from high-grade chromium molybdenum tube (25CrMo4), TIG welded with special welding wire of the same composition.</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Maico -->
+        <div class="group bg-navy-800 rounded-2xl overflow-hidden border border-navy-700 hover:border-cta transition-colors duration-200 cursor-pointer">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="images/maico-frame.jpg" alt="Maico 81 replica frame" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+          </div>
+          <div class="p-6">
+            <h3 class="text-white font-bold text-xl mb-2">Maico '81 Replica</h3>
+            <p class="text-steel-400 text-sm leading-relaxed">The best MAICO ever built. Exact replica rebuilt with great precision. Frame incl. swingarm weighs 14.4 kg.</p>
+            <a href="frames.html" class="inline-flex items-center text-cta font-semibold text-sm mt-4 hover:underline cursor-pointer">
+              View Details
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- Husqvarna -->
+        <div class="group bg-navy-800 rounded-2xl overflow-hidden border border-navy-700 hover:border-cta transition-colors duration-200 cursor-pointer">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="images/maico-detail1.jpg" alt="Husqvarna replica frame" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+          </div>
+          <div class="p-6">
+            <h3 class="text-white font-bold text-xl mb-2">Husqvarna Replicas</h3>
+            <p class="text-steel-400 text-sm leading-relaxed">Famous 70's Husqvarna frames — both 2-stroke (12.2 kg) and 4-stroke (11.8 kg) models available.</p>
+            <a href="frames.html" class="inline-flex items-center text-cta font-semibold text-sm mt-4 hover:underline cursor-pointer">
+              View Details
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+        <!-- C&J Honda -->
+        <div class="group bg-navy-800 rounded-2xl overflow-hidden border border-navy-700 hover:border-cta transition-colors duration-200 cursor-pointer">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img src="images/honda-frame.jpg" alt="C&J Honda XR500 replica frame" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+          </div>
+          <div class="p-6">
+            <h3 class="text-white font-bold text-xl mb-2">C&J Honda XR500</h3>
+            <p class="text-steel-400 text-sm leading-relaxed">Exact replicas of the famous 80's C&J frames. Supplied as complete kit with swingarm, bearings and side panels. 15.5 kg.</p>
+            <a href="frames.html" class="inline-flex items-center text-cta font-semibold text-sm mt-4 hover:underline cursor-pointer">
+              View Details
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="frames.html" class="inline-flex items-center bg-navy-800 border border-navy-700 hover:border-cta text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200 cursor-pointer">
+          View All Frames
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / USPs -->
+  <section class="bg-navy-800 py-20 sm:py-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div>
+          <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">About B.Z.S.</p>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-6">Crafted with Precision</h2>
+          <p class="text-steel-300 text-lg leading-relaxed mb-8">
+            With great precision B.Z.S. Racing Parts builds motorsport frames for cross (MX), racing and quad. All frames are constructed from chromium molybdenum tube and plate of the same tensile strength. Our frames are MIG or TIG welded using special welding wire of the same composition as the tube.
+          </p>
+          <p class="text-steel-300 text-lg leading-relaxed mb-8">
+            All frames are mechanically finished after welding and checked on several quality aspects. The bending work is done by means of a computer-controlled 3-axes MACRI bending machine, which stands for high accuracy.
+          </p>
+          <div class="grid grid-cols-2 gap-6">
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg bg-cta/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold text-sm">25CrMo4 Tube</p>
+                <p class="text-steel-400 text-xs">High-grade chromium molybdenum</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg bg-cta/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold text-sm">TIG / MIG Welded</p>
+                <p class="text-steel-400 text-xs">CEBORA AC/DC welding invertors</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg bg-cta/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold text-sm">CNC Bending</p>
+                <p class="text-steel-400 text-xs">3-axis MACRI bending machine</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <div class="w-10 h-10 rounded-lg bg-cta/10 flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <div>
+                <p class="text-white font-semibold text-sm">Worldwide Shipping</p>
+                <p class="text-steel-400 text-xs">Packed in sturdy box</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/maico-detail2.jpg" alt="B.Z.S. Racing Parts precision frame detail" class="rounded-2xl shadow-2xl w-full" loading="lazy">
+          <div class="absolute -bottom-6 -left-6 bg-cta text-white p-6 rounded-xl shadow-xl hidden lg:block">
+            <p class="text-3xl font-extrabold">30+</p>
+            <p class="text-sm font-medium opacity-90">Years in Motorsport</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Preview -->
+  <section class="py-20 sm:py-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16">
+        <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">Gallery</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Show Your Bike</h2>
+        <p class="text-steel-400 mt-4">Bikes built with B.Z.S. Racing Parts frames from around the world.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="aspect-square overflow-hidden rounded-xl">
+          <img src="images/show-bike1.jpg" alt="Maico with BZS frame" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" loading="lazy">
+        </div>
+        <div class="aspect-square overflow-hidden rounded-xl">
+          <img src="images/bart-vermeulen.jpg" alt="Bart Vermeulen - Belgium" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" loading="lazy">
+        </div>
+        <div class="aspect-square overflow-hidden rounded-xl">
+          <img src="images/brian-walker.jpg" alt="Brian Walker Honda XR500 - USA" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" loading="lazy">
+        </div>
+        <div class="aspect-square overflow-hidden rounded-xl">
+          <img src="images/damien-boutin.jpeg" alt="Damien Boutin - France" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500 cursor-pointer" loading="lazy">
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <a href="gallery.html" class="inline-flex items-center bg-navy-800 border border-navy-700 hover:border-cta text-white px-8 py-4 rounded-lg font-semibold transition-colors duration-200 cursor-pointer">
+          View Full Gallery
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="bg-navy-800 py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <p class="text-cta font-semibold text-sm uppercase tracking-widest mb-3">Reviews</p>
+        <h2 class="text-3xl font-extrabold text-white">⭐ 4.3 / 5 on Google</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div class="bg-navy-900 p-6 rounded-xl border border-navy-700">
+          <div class="flex text-accent mb-3">★★★★★</div>
+          <p class="text-steel-300 text-sm italic">"Geweldige winkel!"</p>
+          <p class="text-steel-400 text-xs mt-3 font-semibold">— Mr. Oldschool</p>
+        </div>
+        <div class="bg-navy-900 p-6 rounded-xl border border-navy-700">
+          <div class="flex text-accent mb-3">★★★★★</div>
+          <p class="text-steel-300 text-sm italic">"Uitstekende service"</p>
+          <p class="text-steel-400 text-xs mt-3 font-semibold">— Douwe Kannis</p>
+        </div>
+        <div class="bg-navy-900 p-6 rounded-xl border border-navy-700">
+          <div class="flex text-accent mb-3">★★★★★</div>
+          <p class="text-steel-300 text-sm italic">"Bovenaan 👍👌"</p>
+          <p class="text-steel-400 text-xs mt-3 font-semibold">— poep chinees</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-cta py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">Ready to Build Your Frame?</h2>
+      <p class="text-white/80 text-lg mb-8">Frames are built on stock — normally ready for delivery within a week. Shipped worldwide.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="tel:+31412402738" class="bg-white text-navy-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-steel-200 transition-colors duration-200 cursor-pointer">
+          +31 412 402738
+        </a>
+        <a href="mailto:info@bzsracingparts.nl" class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition-colors duration-200 cursor-pointer">
+          info@bzsracingparts.nl
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-navy-900 border-t border-navy-700 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div>
+          <p class="text-white font-bold text-lg mb-3">B.Z.S. <span class="text-cta">Racing Parts</span></p>
+          <p class="text-steel-400 text-sm leading-relaxed">Precision motorsport frames for MX, racing and quad since 30+ years.</p>
+        </div>
+        <div>
+          <p class="text-white font-semibold text-sm mb-3">Quick Links</p>
+          <div class="space-y-2">
+            <a href="frames.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Frames</a>
+            <a href="services.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Services</a>
+            <a href="gallery.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Gallery</a>
+            <a href="contact.html" class="block text-steel-400 text-sm hover:text-cta cursor-pointer transition-colors duration-200">Contact</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-white font-semibold text-sm mb-3">Contact</p>
+          <div class="space-y-2 text-steel-400 text-sm">
+            <p>Hoessenboslaan 39d</p>
+            <p>5351 PB Berghem, The Netherlands</p>
+            <p><a href="tel:+31412402738" class="hover:text-cta cursor-pointer transition-colors duration-200">+31 412 402738</a></p>
+            <p><a href="mailto:info@bzsracingparts.nl" class="hover:text-cta cursor-pointer transition-colors duration-200">info@bzsracingparts.nl</a></p>
+            <p class="text-xs text-steel-400/60 mt-2">Mon-Fri: 08:00-16:00</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-navy-700 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <p class="text-steel-400/60 text-xs">KvK 160.55.286 · BTW NL812375324B01</p>
+        <p class="text-steel-400/60 text-xs">Gebouwd door <a href="https://www.code-lieshout.nl" class="hover:text-cta cursor-pointer transition-colors duration-200">Code Lieshout</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
